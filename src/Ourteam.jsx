@@ -48,57 +48,62 @@ const Ourteam = () => {
                 <h2 className="text-center teamheader">Our Amazing Team</h2>
             </div>
             <Fade left cascade>
-            <div className="body">
-                <div className="profile-card">
-                    <div className="card-header">
-                        <div className="pic">
-                            <img src={naman} alt="namanjangid" />
+                <div className="body">
+                    <div className="profile-card">
+                        <div className="card-header">
+                            <div className="pic">
+                                <img src={naman} alt="namanjangid" />
+                            </div>
+                            <div className="name">Naman Jangid</div>
+                            <div className="desc">CEO || Founder</div>
+                            <div className="sm">
+                                <Link to="#" className="fab fa-facebook-f" onClick={namanFb}></Link>
+                                <Link to="#" className="fab fa-instagram" onClick={namanInsta}></Link>
+                                <Link to="#" className="fab fa-twitter" onClick={namanTwitter}></Link>
+                                <Link to="#" className="fab fa-linkedin" onClick={namanLinkedin}></Link>
+                            </div>
                         </div>
-                        <div className="name">Naman Jangid</div>
-                        <div className="desc">CEO || Founder</div>
-                        <div className="sm">
-                            <Link to="#" className="fab fa-facebook-f" onClick={namanFb}></Link>
-                            <Link to="#" className="fab fa-instagram" onClick={namanInsta}></Link>
-                            <Link to="#" className="fab fa-twitter" onClick={namanTwitter}></Link>
-                            <Link to="#" className="fab fa-linkedin" onClick={namanLinkedin}></Link>
+                    </div>
+
+
+                    <div className="profile-card">
+                        <div className="card-header">
+                            <div className="pic">
+                                <img src={amar} alt="amareshkumar" />
+                            </div>
+                            <div className="name">Amaresh Chandra</div>
+                            <div className="desc">CTO || Developer</div>
+                            <div className="sm">
+                                <Link to="" className="fab fa-facebook-f" onClick={amarFb}></Link>
+                                <Link to="#" className="fab fa-instagram" onClick={amarInsta}></Link>
+                                <Link to="#" className="fab fa-twitter" onClick={amarTwitter}></Link>
+                                <Link to="#" className="fab fa-github" onClick={amarGithub}></Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <div className="card-header">
+                            <div className="pic">
+                                <img src={akash} alt="akashsaini" />
+                            </div>
+                            <div className="name">Aakash Saini</div>
+                            <div className="desc">Digital Marketer || Youtuber</div>
+                            <div className="sm">
+                                <Link to="#" className="fab fa-facebook-f" onClick={akashFb}></Link>
+                                <Link to="#" className="fab fa-instagram" onClick={akashInsta}></Link>
+                                <Link to="#" className="fab fa-twitter" onClick={akashTwitter}></Link>
+                                <Link to="#" className="fab fa-youtube" onClick={akashYoutube}></Link>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
-                <div className="profile-card">
-                    <div className="card-header">
-                        <div className="pic">
-                            <img src={amar} alt="amareshkumar" />
-                        </div>
-                        <div className="name">Amaresh Chandra</div>
-                        <div className="desc">CTO || Developer</div>
-                        <div className="sm">
-                            <Link to="" className="fab fa-facebook-f" onClick={amarFb}></Link>
-                            <Link to="#" className="fab fa-instagram" onClick={amarInsta}></Link>
-                            <Link to="#" className="fab fa-twitter" onClick={amarTwitter}></Link>
-                            <Link to="#" className="fab fa-github" onClick={amarGithub}></Link>
-                        </div>
-                    </div>
+            </Fade>
+            <Fade bottom cascade>
+                <div className="smm">
+                    <Link to="#"><i class="fab fa-facebook-f"></i></Link>
+                    <Link to="#"><i class="fab fa-twitter"></i></Link>
+                    <Link to="#"><i class="fab fa-instagram"></i></Link>
                 </div>
-
-
-                <div className="profile-card">
-                    <div className="card-header">
-                        <div className="pic">
-                            <img src={akash} alt="akashsaini" />
-                        </div>
-                        <div className="name">Aakash Saini</div>
-                        <div className="desc">Digital Marketer || Youtuber</div>
-                        <div className="sm">
-                            <Link to="#" className="fab fa-facebook-f" onClick={akashFb}></Link>
-                            <Link to="#" className="fab fa-instagram" onClick={akashInsta}></Link>
-                            <Link to="#" className="fab fa-twitter" onClick={akashTwitter}></Link>
-                            <Link to="#" className="fab fa-youtube" onClick={akashYoutube}></Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
             </Fade>
         </div>
     )
