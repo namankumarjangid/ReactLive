@@ -42,6 +42,15 @@ const Ourteam = () => {
     const akashYoutube = () => {
         window.open("https://www.youtube.com/c/FantasticAkash")
     }
+    const fbSoft = () => {
+        window.open("https://www.facebook.com/softsolutionlive")
+    }
+    const instaSoft = () => {
+        window.open("https://www.instagram.com/softsolution_")
+    }
+    const twitterSoft = () => {
+        window.open("https://www.twitter.com/softsolution_")
+    }
     return (
         <div>
             <div>
@@ -100,9 +109,9 @@ const Ourteam = () => {
             </Fade>
             <Fade bottom cascade>
                 <div className="smm">
-                    <Link to="#"><i class="fab fa-facebook-f"></i></Link>
-                    <Link to="#"><i class="fab fa-twitter"></i></Link>
-                    <Link to="#"><i class="fab fa-instagram"></i></Link>
+                    <Link to="#" onClick={fbSoft}><i className="fab fa-facebook-f"></i></Link>
+                    <Link to="#" onClick={instaSoft}><i className="fab fa-instagram"></i></Link>
+                    <Link to="#" onClick={twitterSoft}><i className="fab fa-twitter"></i></Link>
                 </div>
             </Fade>
         </div>
